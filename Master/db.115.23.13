@@ -1,0 +1,13 @@
+;
+;
+$TTL	604800
+@	IN	SOA	assemble.avengers.net. admin.avengers.net. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache 
+;
+			IN    	NS    	assemble.avengers.net.
+115.23.13.10		IN	PTR	blackwidow.avengers.net.
+115.23.13.8 		IN	PTR	wasp.avengers.net.

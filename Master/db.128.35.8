@@ -1,0 +1,16 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     assemble.avengers.net. admin.avengers.net. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+
+
+		IN	NS	assemble.avengers.net.
+128.35.8.1	IN	PTR	assemble.avengers.net.
+128.35.8.9	IN	PTR	sentry.avengers.net.

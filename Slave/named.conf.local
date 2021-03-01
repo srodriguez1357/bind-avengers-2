@@ -1,0 +1,32 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "avengers.net" in {
+type slave;
+file "/etc/bind/zones/db.avengers.net";
+masters { 10.0.0.5; };
+};
+
+zone "8.35.128.in-addr.arpa" in { 
+type slave;
+file "/etc/bind/zones/db.128.35.8";
+masters { 10.0.0.5; };
+};
+
+zone "13.23.115.in-addr.arpa" in { 
+type slave;
+file "/etc/bind/zones/db.115.23.13";
+masters { 10.0.0.5; };
+};
+
+zone "35.201.149.in-addr.arpa" in { 
+type slave;
+file "/etc/bind/zones/db.149.201.35";
+masters { 10.0.0.5; };
+};
+
