@@ -2,7 +2,7 @@
 ; BIND data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	ns1.avengers4.info. ofdez72.gmail.com. (
+@	IN	SOA	servers.equipo2.info. equipo2.gmail.com. (
 			      4		; Serial
 			 604800		; Refresh
 			  86400		; Retry
@@ -12,7 +12,7 @@ $TTL	604800
 	IN	NS	servers.avengers4.info.
 ;
 		IN	A	1.1.1.1
-server		IN	A	1.1.1.1
+servers		IN	A	1.1.1.1
 david		IN	A	1.1.1.11 
 salvador	IN	A	1.1.1.12
 jonathan	IN	A	1.1.1.13
